@@ -1,0 +1,17 @@
+.status-container{
+    height:6.25rem;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.status-container.status-red{
+    background-color:darkred;
+}
+.status-container.status-green{
+    background-color:darkgreen;
+}
+.status-container.status-hide {
+    visibility:none;
+    height: 1.25rem;
+}
