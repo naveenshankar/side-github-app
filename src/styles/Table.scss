@@ -1,0 +1,9 @@
+$light-gray: #d3d3d3;
+
+.table-container{
+    width:100%;
+    text-align: left;
+    tr{
+        background-color: $light-gray;
+    }
+}

@@ -10,6 +10,9 @@
 /build
 
 # misc
+.firebase
+.vscode/chrome
+src/config
 .DS_Store
 .env
 npm-debug.log*
