@@ -26,7 +26,7 @@ class Search extends Component {
             data
           });
         } else {
-          throw new Error(`User ${inputVal} is ${dataPromise.statusText}`);
+          throw new Error(`Error: User ${inputVal} is ${dataPromise.statusText}`);
         }
       } catch(e) {
         persistFn({

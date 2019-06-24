@@ -1,3 +1,5 @@
+$light-gray: #d3d3d3;
+
 .search-container{
     .search-input{
         height: 3.125rem;
@@ -7,6 +9,6 @@
         font-size: 1.25rem;
     }
     .search-input.disabled{
-        background-color:lightgray;
+        background-color:$light-gray;
     }
 }

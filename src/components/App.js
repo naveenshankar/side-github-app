@@ -115,13 +115,13 @@ class App extends Component {
               return {
                 inSync: true,
                 records: oldRecs.concat([processedData]),
-                messages: [`User ${data.login} added to the DB!`]
+                messages: [`Success: User ${data.login} added to the DB!`]
               };
             }
             return {
               errorState: true,
               inSync: true,
-              messages: [`User ${data.login} already exists in the DB!`]
+              messages: [`Error: User ${data.login} already exists in the DB!`]
             };
           });
       } else {
@@ -129,7 +129,7 @@ class App extends Component {
           return {
             errorState: true,
             inSync: true,
-            messages: [`Error adding ${data.login} to the DB`]
+            messages: [`Error: Error adding ${data.login} to the DB`]
           };
         });
       }

@@ -1,15 +1,30 @@
 .status-container {
   height: 6.25rem;
+  opacity: 1;
   width: 100%;
   display: inline-flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out; }
 
 .status-container.status-red {
-  background-color: darkred; }
+  background-color: #8b0000;
+  opacity: 0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out; }
 
 .status-container.status-green {
-  background-color: darkgreen; }
+  background-color: #006400;
+  opacity: 0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out; }
 
 .status-container.status-hide {
   visibility: none;
